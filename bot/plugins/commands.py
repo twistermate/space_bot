@@ -28,14 +28,14 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = f"{file_name}\n @MW_Links,
+                caption = f"{file_name},
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔰 MOVIESWORLD Team 🔰', url="https://t.me/MW_Linkz"
+                                    '⭕ MOVIES WORLD Team ⭕', url="https://t.me/MW_Linkz"
                                 )
                         ]
                     ]
