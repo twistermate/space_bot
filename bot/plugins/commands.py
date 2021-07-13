@@ -23,12 +23,12 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = file_caption if file_caption != ("" or None) else ("<code>" + file_name + "</code>")
+        caption = ("<code>" + file_name + """</code>\n<b>@MW_Links</b>""")
         try:
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = ("<code>" + file_name + """</code>\n<b>@MW_Linkz</b>""")
+                caption = caption,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
