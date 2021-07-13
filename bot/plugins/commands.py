@@ -24,10 +24,32 @@ async def start(bot, update):
             return
         
         caption = ("<code>" + file_name + """</code>\n<b>@MW_Links</b>""")
-        try:
-            await update.reply_cached_media(
-                file_id,
-                quote=True,
+
+        if file_type == "document":
+        
+            await bot.send_document(
+                chat_id=update.chat.id,
+                document = file_id,
+                caption = caption,
+                parse_mode="html",
+                reply_to_message_id=update.message_id,
+                reply_markup=InlineKeyboardMarkup(
+                    [
+                        [
+                            InlineKeyboardButton
+                                (
+                                    '⭕ MOVIES WORLD Team ⭕', url="https://t.me/MW_Linkz"
+                                )
+                        ]
+                    ]
+                )
+            )
+
+        elif file_type == "video":
+        
+            await update.bot.send_video(
+                chat_id=update.chat.id,
+                video = file_id,
                 caption = caption,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
@@ -40,7 +62,31 @@ async def start(bot, update):
                         ]
                     ]
                 )
-            ) 
+            )
+            
+        elif file_type == "audio":
+        
+            await update.bot.send_audio(
+                chat_id=update.chat.id,
+                audio = file_id,
+                caption = caption,
+                parse_mode="html",
+                reply_markup=InlineKeyboardMarkup(
+                    [
+                        [
+                            InlineKeyboardButton
+                                (
+                                    '⭕ MOVIES WORLD Team ⭕', url="https://t.me/MW_Linkz"
+                                )
+                        ]
+                    ]
+                )
+            )
+
+        else:
+            print(file_type)
+        
+        return
 
 # © shamilhabeebnelli
 
