@@ -40,8 +40,7 @@ async def start(bot, update):
                         ]
                     ]
                 )
-            )
-        return 
+            ) 
 
 # © shamilhabeebnelli
 
