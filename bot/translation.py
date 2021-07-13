@@ -16,11 +16,6 @@ For More Details Click Help Button Below..
     HELP_TEXT = """
 <b><i><u>How To Use Me!?</u></i></b>
 
-<i>
--> Add Me To Any Group And Make Me Admin
--> Add Me To Your Desired Channel
-</i>
-
 <b>Bot Commands (Works Only In Groups) :</b>
 
     -> <code>/add chat_id</code>
