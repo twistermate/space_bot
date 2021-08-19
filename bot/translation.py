@@ -43,7 +43,7 @@ For More Details Click Help Button Below..
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> 😈𓆩𝕯𝖊𝖛𝖎𝖑 𝕳𝖆𝖈𝖐𝖊𝖗𓆪😈 Bot</code>
     
-<b>➥ Creator</b> : <b><i><a href="https://t.me/DevilHackerRakesh">Scar Jo</a></i></b>
+<b>➥ Creator</b> : <b><i><a href="https://t.me/DevilHackerRakesh">😈𓆩𝕯𝖊𝖛𝖎𝖑 𝕳𝖆𝖈𝖐𝖊𝖗𓆪😈</a></i></b>
 
 <b>➥ Language</b> : <code>Python3</code>
 
