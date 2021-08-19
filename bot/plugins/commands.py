@@ -23,7 +23,7 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = ("<code>" + file_name + """</code>\n<b>All Movies Here 👉 @TheModdingGod</b>""")
+        caption = ("<code>" + file_name + """</code>\n<b>All Movies Here 👇 @TheModdingGod</b>""")
 
         if file_type == "document":
         
@@ -91,8 +91,8 @@ async def start(bot, update):
 # © shamilhabeebnelli
 
     buttons = [[
-        InlineKeyboardButton('😈 Developer 👿', url='https://t.me/DevilHackerRakesh'),
-        InlineKeyboardButton('😘 Source Code 😘', url ='https://github.com/rakeshyt/DevilHacker')
+        InlineKeyboardButton('😈Developer👿', url='https://t.me/DevilHackerRakesh'),
+        InlineKeyboardButton('😘Source Code', url ='https://github.com/rakeshyt/DevilHacker')
     ],[
         InlineKeyboardButton('💁 Support 💁', url='https://t.me/TheModdingGod')
     ],[
