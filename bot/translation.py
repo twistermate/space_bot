@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG
+# (c) @AlbertEinsteinTG @DevilHackerRakesh
 
 class Translation(object):
     
     START_TEXT = """<b><u>How are you! {}!!</b></u>
-<i>Am Just A Advance Auto Filter Bot....😉
+<i>Am Just 😈𓆩𝕯𝖊𝖛𝖎𝖑 𝕳𝖆𝖈𝖐𝖊𝖗𓆪😈 Bot....😉
 
 You can't Add me to your Group 🔥🔥😝
 
 For More Details Click Help Button Below..
-@MOVIESWORLDI
+@TheModdingGod
 </i>"""    
     
     HELP_TEXT = """
@@ -41,13 +41,13 @@ For More Details Click Help Button Below..
 
 """
     
-    ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
+    ABOUT_TEXT = """<b>➥ Name</b> : <code> 😈𓆩𝕯𝖊𝖛𝖎𝖑 𝕳𝖆𝖈𝖐𝖊𝖗𓆪😈 Bot</code>
     
-<b>➥ Creator</b> : <b><i><a href="https://t.me/Scar_Jo">Scar Jo</a></i></b>
+<b>➥ Creator</b> : <b><i><a href="https://t.me/DevilHackerRakesh">Scar Jo</a></i></b>
 
 <b>➥ Language</b> : <code>Python3</code>
 
 <b>➥ Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
 
-<b>➥ Source Code</b> : <i><a href="https://github.com/moviesworldi/MWAutoFilter">Click Me</a></i>
+<b>➥ Source Code</b> : <i><a href="https://github.com/rakeshyt/DevilHacker">Click Me</a></i>
 """
