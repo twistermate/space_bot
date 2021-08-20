@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG @DevilHackerRakesh
+# (c) @AlbertEinsteinTG
 
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
@@ -23,7 +23,7 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = ("<code>" + file_name + """</code>\n<b>All Movies Here 👇 @TheModdingGod</b>""")
+        caption = ("<code>" + file_name + """</code>\n<b>@MW_Linkz</b>""")
 
         if file_type == "document":
         
@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕ JOIN MAIN GROUP ⭕', url="https://t.me/TheModdingGod"
+                                    '⭕ MOVIES WORLD Team ⭕', url="https://t.me/MW_Linkz"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕ JOIN MAIN GROUP ⭕', url="https://t.me/TheModdingGod"
+                                    '⭕ MOVIES WORLD Team ⭕', url="https://t.me/MW_Linkz"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕ JOIN MAIN GROUP ⭕', url="https://t.me/TheModdingGod"
+                                    '⭕ MOVIES WORLD Team ⭕', url="https://t.me/MW_Linkz"
                                 )
                         ]
                     ]
@@ -91,12 +91,12 @@ async def start(bot, update):
 # © shamilhabeebnelli
 
     buttons = [[
-        InlineKeyboardButton('😈Developer👿', url='https://t.me/DevilHackerRakesh'),
-        InlineKeyboardButton('😘Source Code', url ='https://github.com/rakeshyt/DevilHacker')
+        InlineKeyboardButton('Developers', url='https://t.me/MW_Linkz'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
     ],[
-        InlineKeyboardButton('💁 Support 💁', url='https://t.me/TheModdingGod')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/MOVIESWORLDI')
     ],[
-        InlineKeyboardButton('🇮🇳 Help 🇮🇳', callback_data="help")
+        InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
