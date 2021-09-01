@@ -23,7 +23,7 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = ("<code>" + file_name + """</code>\n<b>All Movies Here 👇 @TheModdingGod</b>""")
+        caption = ("<code>" + file_name + """</code>\n<b>All Movies Here 👇 @closechapter</b>""")
 
         if file_type == "document":
         
@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕ JOIN MAIN GROUP ⭕', url="https://t.me/TheModdingGod"
+                                    '⭕ JOIN MAIN CHANNEL ⭕', url="https://t.me/closechapters2_0"
                                 )
                         ]
                     ]
