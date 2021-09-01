@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>✨ Check links at @TheModdingGod ✨ Found</i> <code>{leng}</code> <i>Results For Your Request 😊:</i> <code>{query}</code>"
+    text=f"<i>✨ Join @closechapters2_0 ✨ Found</i> <code>{leng}</code> <i>Results For Your Request 😊:</i> <code>{query}</code>"
         
     try:
         await update.message.edit(
@@ -1600,15 +1600,15 @@ async def cb_about(bot, update: CallbackQuery):
 
     text=f"<i><u>Bot's Status</u></i>\n"
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
-    text+=f"\n<b><i>Bot Funtion:</i></b> <i>😈𓆩𝕯𝖊𝖛𝖎𝖑 𝕳𝖆𝖈𝖐𝖊𝖗𓆪😈 Files</i>\n"
-    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/TheModdingGod">@TheModdingGod</a>\n"""
-    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/rakeshyt/DevilHacker">Source</a>"""
+    text+=f"\n<b><i>Bot Funtion:</i></b> <i>SPACE BOTS Files</i>\n"
+    text+=f"""\n<b><i>BOT Channel:</i></b> <a href="https://t.me/SPACE_BOtZ">@SPACE BOtZ</a>\n"""
+    text+="""\n<b><i>Source Code:</i></b> <a href="https://t.me/joinchat/eZk8OSmHwR5jYTJl">Source</a>"""
 
     buttons = [
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/DevilHackerRakesh"
+                    "My Dev ⚡", url="https://t.me/Makerwith"
                 ),
                 
             InlineKeyboardButton
@@ -1639,10 +1639,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/DevilHackerRakesh'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/rakeshyt/DevilHacker')
+            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/Makerwith'),
+            InlineKeyboardButton('Source Code 🧾', url ='https://t.me/joinchat/eZk8OSmHwR5jYTJl')
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/TheModdingGod')
+            InlineKeyboardButton('BOT CHANNEL', url='https://t.me/SPACE_BOtZ')
         ],[
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
