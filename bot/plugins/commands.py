@@ -96,7 +96,7 @@ async def start(bot, update):
     ],[
         InlineKeyboardButton('GROUP', url='https://t.me/Movie_loverz_group')
     ],[
-        InlineKeyboardButton('🇮🇳 Help 🇮🇳', callback_data="help")
+        InlineKeyboardButton('HELP', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
