@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕ JOIN MAIN GROUP ⭕', url="https://t.me/TheModdingGod"
+                                    '⭕ JOIN MAIN CHANNEL ⭕', url="https://t.me/closechapters2_0"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕ JOIN MAIN GROUP ⭕', url="https://t.me/TheModdingGod"
+                                    '⭕ JOIN MAIN CHANNEL ⭕', url="https://t.me/closechapters2_0"
                                 )
                         ]
                     ]
@@ -91,10 +91,10 @@ async def start(bot, update):
 # © shamilhabeebnelli
 
     buttons = [[
-        InlineKeyboardButton('😈Developer👿', url='https://t.me/DevilHackerRakesh'),
-        InlineKeyboardButton('😘Source Code', url ='https://github.com/rakeshyt/DevilHacker')
+        InlineKeyboardButton('Developer', url='https://t.me/Makerwith'),
+        InlineKeyboardButton('Source Code', url ='https://github.com/rakeshyt/DevilHacker')
     ],[
-        InlineKeyboardButton('💁 Support 💁', url='https://t.me/TheModdingGod')
+        InlineKeyboardButton('GROUP', url='https://t.me/Movie_loverz_group')
     ],[
         InlineKeyboardButton('🇮🇳 Help 🇮🇳', callback_data="help")
     ]]
