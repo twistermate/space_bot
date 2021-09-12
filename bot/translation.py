@@ -5,12 +5,12 @@
 class Translation(object):
     
     START_TEXT = """<b><u>How are you! {}!!</b></u>
-<i>Am Just 😈𓆩𝕯𝖊𝖛𝖎𝖑 𝕳𝖆𝖈𝖐𝖊𝖗𓆪😈 Bot....😉
+<i>Am Just SPACE BOtZ....😉
 
 You can't Add me to your Group 🔥🔥😝
 
 For More Details Click Help Button Below..
-@TheModdingGod
+@SPACE_BOtZ
 </i>"""    
     
     HELP_TEXT = """
@@ -21,9 +21,9 @@ For More Details Click Help Button Below..
 
 """
     
-    ABOUT_TEXT = """<b>➥ Name</b> : <code> HHT Bot</code>
+    ABOUT_TEXT = """<b>➥ Name</b> : <code> SPACE BOtZ</code>
     
-<b>➥ Creator</b> : <b><i><a href="https://t.me/Makerwith">Irfan</a></i></b>
+<b>➥ Creator</b> : <b><i><a href="https://t.me/SPACE_BOtZ">SPACE BOtZ</a></i></b>
 
 <b>➥ Language</b> : <code>Python3</code>
 
