@@ -92,11 +92,11 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('Developer', url='https://t.me/Makerwith'),
-        InlineKeyboardButton('Source Code', url ='https://github.com/rakeshyt/DevilHacker')
+        InlineKeyboardButton('Source Code', url ='https://t.me/joinchat/eZk8OSmHwR5jYTJl')
     ],[
-        InlineKeyboardButton('GROUP', url='https://t.me/Movie_loverz_group')
+        InlineKeyboardButton('UPDATES🤖', url='https://t.me/Movie_loverz_group')
     ],[
-        InlineKeyboardButton('HELP', callback_data="help")
+        InlineKeyboardButton('HELP👨‍🦯', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
